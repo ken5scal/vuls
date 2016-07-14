@@ -33,14 +33,13 @@
 - Execute the following command to build and run a Vuls Container
 
 	```
-	$ cd $GOPATH/src/github.com/future-architect/vuls/docker
 	$ docker-compose up -d
 	```
 
 ## Setting up Vuls
 
-1. Locate ssh-keys of targer servers in (vuls/docker/conf/)
-2. Create and ajust config.toml(vuls/docker/conf/config.toml) to your environment
+1. Locate ssh-keys of target servers in (vuls/docker/conf/)
+2. Create and adjust config.toml(vuls/docker/conf/config.toml) to your environment
 	
 	```
 	[servers]
